@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liyue Cuisine Featurepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            background-image: url('RECIPEPAGEbg.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 120px;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        .item {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            width: 35%;
+            text-align: center;
+            padding: 30px;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        .item img {
+            max-width: 100%;
+            border-radius: 8px;
+            height: auto;
+        }
+        .item h2 {
+            margin-top: 15px;
+            font-size: 22px;
+        }
+        .item a {
+            color: #5f6c7c;
+            text-decoration: none;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 1.7;
+        }
+        .item a:hover {
+            color: #1a73e8;
+        }
+        .item ul {
+            list-style-type: none;
+            padding-left: 0;
+            text-align: center;
+            margin-top: 15px;
+        }
+        .item ul li {
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        nav {
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-sm bg-light navbar-light navbar-collapse">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="xianglingpfp.jpg" class="rounded-circle" alt="icecream" height="40px" width="40px"></a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Liyue Cuisine ABOUT.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Liyue Cuisine FEATURE.html">Feature</a></li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control" type="text" placeholder="search...">
+                        <button class="btn btn-warning" type="button">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="container">
+            <div class="item">
+                <img src="bambooshootsoup.png" alt="Bamboo Shoot Soup">
+                <h2>Bamboo Shoot Soup</h2>
+                <p><a href="https://youtu.be/CwHoKErDdDU?si=AXMrXc0N-DyxDd_k" target="_blank">"Slow-cooked bamboo shoot soup is a dish that comes with thousands of years of Liyue culinary culture behind it."</a></p>
+                <ul>
+                    <li>Spring bamboo shoots</li>
+                    <li>Cured pork belly</li>
+                    <li>Ginger</li>
+                    <li>Chicken</li>
+                    <li>Pork bones</li>
+                    <li>Baijiu (distilled liquor)</li>
+                    <li>Ham</li>
+                    <li>Lard</li>
+                    <li>Beancurd knots</li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <img src="goldenshrimpballs.png" alt="Golden Shrimp Balls">
+                <h2>Golden Shrimp Balls</h2>
+                <p><a href="https://youtu.be/X5Dd78jiSi8?si=H-v125STbzR0-JrY" target="_blank">"The popular 'Golden Shrimp Balls' might just be the perfect example of modern-day Liyue cuisine, with its brilliant golden color and irresistible potato fragrance."</a></p>
+                <ul>
+                    <li>Reed leaves</li>
+                    <li>Potatoes</li>
+                    <li>Fresh shrimp</li>
+                    <li>Flour</li>
+                    <li>Oil</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
